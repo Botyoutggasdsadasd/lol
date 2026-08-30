@@ -11,7 +11,7 @@ import os
 
 # Your Telegram Bot Token from @BotFather
 # Example: "7123456789:AAFlkjw9e8u2h3kjh4kj5h6k7j8h9k0"
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8872244008:AAFe3-ykCk0K8N6WI2sEdXAZNj18ZXKLt5A")
 
 # Telegram Admin Chat IDs (Users who receive admin alerts and order notifications)
 # Example: [123456789, 987654321]
