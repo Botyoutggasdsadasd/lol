@@ -1,3 +1,4 @@
 #!/bin/bash
-python bot.py &
+nohup python bot.py > /dev/null 2>&1 &
+disown
 npm start
