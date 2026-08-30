@@ -1,0 +1,105 @@
+{
+  "products": [],
+  "orders": [],
+  "userProfile": {
+    "username": "Noreakyout",
+    "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAJbPmK_4tXbPo7csvq5Th9P3jTxJ0832ZJXjTEiILWmnuAzoW1cThcH0p1D2Er4LY0IgbfX0j5zzK5XO26Ej73VWHE9q3JXLYadZTOJdYu9tOtAX3vKWuuA1SA8xJA_w9FyaBAERQu816-BlDrGtKKhocghmuzg37LdL7w50CkOyb9f468g3emhq45yCP_vgOhUNTOa_3i5RhaG75oQop7T6CoQMJxn39S1XxyclZ7BACOn4MgqXrE",
+    "balanceUSD": 0.00,
+    "robloxUsername": "Noreakyout",
+    "telegramHandle": "@Noreakyout",
+    "referralCode": "UCHIRO-NOREAK",
+    "referralEarningsUSD": 0.00,
+    "referralCount": 0,
+    "referralHistory": [],
+    "totalSpentUSD": 0.00,
+    "activeSessions": [
+      {
+        "id": "sess-current",
+        "ip": "127.0.0.1",
+        "location": "Phnom Penh, Cambodia",
+        "lastActive": "Just now",
+        "device": "Current Web Client",
+        "type": "desktop"
+      }
+    ]
+  },
+  "coupons": [],
+  "settings": {
+    "storeName": "UCHIRO STORE",
+    "storeNameKhmer": "UCHIRO STORE",
+    "logoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAJbPmK_4tXbPo7csvq5Th9P3jTxJ0832ZJXjTEiILWmnuAzoW1cThcH0p1D2Er4LY0IgbfX0j5zzK5XO26Ej73VWHE9q3JXLYadZTOJdYu9tOtAX3vKWuuA1SA8xJA_w9FyaBAERQu816-BlDrGtKKhocghmuzg37LdL7w50CkOyb9f468g3emhq45yCP_vgOhUNTOa_3i5RhaG75oQop7T6CoQMJxn39S1XxyclZ7BACOn4MgqXrE",
+    "announcement": "🎉 ស្វាគមន៍មកកាន់ Uchiro Store! ទិញគណនី Roblox & ផ្លែឈើ Mythical ធានា ១៤ ថ្ងៃ សុវត្ថិភាព ១០០% • Instant KHQR USD",
+    "tagline": "Cambodia's #1 Automated Roblox & Mythical Items Store",
+    "aboutStore": "Instant automated delivery 24/7 with zero fees and full warranty.",
+    "workingHours": "24/7 Automated Instant Delivery (១ ទៅ ៥ វិនាទី)",
+    "telegramUrl": "https://t.me/Noreakyout",
+    "discordUrl": "",
+    "supportPhone": "+855 16866125",
+    "bakongAccountId": "noreak_store@aclb",
+    "merchantName": "UCHIRO STORE",
+    "merchantCity": "Phnom Penh",
+    "acquiringBank": "ABA Bank (Advanced Bank of Asia)",
+    "exchangeRateKHR": 4100,
+    "khqrApiKey": "khqr_live_sec_994827103847291",
+    "webhookUrl": "https://api.uchiro.gg/v1/khqr-webhook",
+    "autoApproveKHQR": false,
+    "hideSoldOutProducts": true,
+    "bgMusicEnabled": true,
+    "bgMusicAutoplay": false,
+    "bgMusicLoop": true,
+    "defaultVolume": 0.4,
+    "songs": [
+      {
+        "id": "song-1",
+        "title": "Neon Horizon (Lofi Beats)",
+        "artist": "Chill Gaming Studio",
+        "url": "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3",
+        "duration": "2:27"
+      },
+      {
+        "id": "song-2",
+        "title": "Cyberpunk Tokyo Nights",
+        "artist": "Uchiro Synth Wave",
+        "url": "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3?filename=chill-abstract-intention-12099.mp3",
+        "duration": "2:05"
+      },
+      {
+        "id": "song-3",
+        "title": "Awakened Sea Theme",
+        "artist": "Grand Line Melodies",
+        "url": "https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=ambient-piano-amp-strings-10711.mp3",
+        "duration": "2:15"
+      }
+    ],
+    "adminUsername": "admin",
+    "adminPasswordHash": "uchiro2026@admin",
+    "orderAlertsEnabled": true,
+    "topupAlertsEnabled": true,
+    "lowStockAlertsEnabled": true,
+    "alertSoundEnabled": true,
+    "verificationBotToken": "7192849102:AAHgp1-STORE_SERVICE_BOT_TOKEN",
+    "verificationBotUsername": "@uchirostore_bot",
+    "verificationBotEnabled": true,
+    "autoCheckRobloxProfile": true,
+    "telegramBotToken": "",
+    "telegramAdminChatId": "@Noreakyout",
+    "telegramChannelId": "@uchirostore",
+    "miniAppUrl": "https://t.me/uchirostore_bot/app"
+  },
+  "analytics": {
+    "liveNow": 1,
+    "totalVisits": "0",
+    "visitsGrowth": "0%",
+    "uniqueVisitors": "0",
+    "uniqueGrowth": "0%",
+    "avgSession": "0m",
+    "sessionGrowth": "0%",
+    "traffic24h": [],
+    "devices": {
+      "mobile": 50,
+      "desktop": 50
+    },
+    "locations": [],
+    "trafficSources": []
+  }
+}

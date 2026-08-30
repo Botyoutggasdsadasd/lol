@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-anton: 'Anton', sans-serif;
+    --font-outfit: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+    --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-khmer: 'Kantumruy Pro', 'Noto Sans Khmer', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-khmer), var(--font-outfit), sans-serif;
+    background-color: #0A0B0E;
+    color: #e2e2ec;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+  }
+}
+
+.font-headline {
+  font-family: 'Plus Jakarta Sans', 'Outfit', 'Anton', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.font-user {
+  font-family: 'Plus Jakarta Sans', 'Kantumruy Pro', 'Noto Sans Khmer', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.font-gamer {
+  font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.font-price {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-khmer {
+  font-family: 'Kantumruy Pro', 'Noto Sans Khmer', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 3D Chunky Buttons */
+.chunky-btn-gold {
+  box-shadow: 0 4px 0 #815500;
+  transition: all 0.1s ease-in-out;
+}
+.chunky-btn-gold:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #815500;
+}
+
+.chunky-btn-outline {
+  box-shadow: 0 4px 0 #33343c;
+  transition: all 0.1s ease-in-out;
+}
+.chunky-btn-outline:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #33343c;
+}
+
+.chunky-btn-success {
+  box-shadow: 0 4px 0 #005a36;
+  transition: all 0.1s ease-in-out;
+}
+.chunky-btn-success:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #005a36;
+}
+
+.chunky-btn-danger {
+  box-shadow: 0 4px 0 #690005;
+  transition: all 0.1s ease-in-out;
+}
+.chunky-btn-danger:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #690005;
+}
+
+/* Gacha & Legendary Shimmer */
+.shimmer-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.shimmer-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, transparent 25%, #ffb230 50%, transparent 75%);
+  background-size: 200% auto;
+  border-radius: inherit;
+  z-index: -1;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* Sunburst aura */
+.sunburst {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 178, 48, 0.05) 0deg 10deg,
+    transparent 10deg 20deg
+  );
+}
+
+.glass-panel {
+  background: rgba(20, 22, 29, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 0.5px solid rgba(244, 240, 228, 0.1);
+}
+
+.glass-sheet {
+  background: rgba(20, 22, 29, 0.96);
+  backdrop-filter: blur(24px);
+  border-top: 0.5px solid rgba(244, 240, 228, 0.12);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e15;
+}
+::-webkit-scrollbar-thumb {
+  background: #282a31;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb230;
+}

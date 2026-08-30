@@ -1,0 +1,6 @@
+{
+  "name": "Uchiro Store - Cambodia Gaming Marketplace",
+  "description": "Premium Roblox & gaming marketplace with full KHQR instant USD payment integration and admin control panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
