@@ -36,10 +36,10 @@ SUPPORT_PHONE = "+855 16866125"
 # ==========================================================
 
 # The URL of your Uchiro Store web application (opens directly inside Telegram Mini App)
-WEBAPP_URL = os.getenv("STORE_WEBAPP_URL", "https://uchiro-store.ai.studio")
+WEBAPP_URL = os.getenv("STORE_WEBAPP_URL", "https://lol-production-be49.up.railway.app")
 
 # Secret Admin Panel direct URL (Protected by Admin PIN / credentials)
-ADMIN_PANEL_URL = os.getenv("ADMIN_PANEL_URL", "https://uchiro-store.ai.studio/adminpanel")
+ADMIN_PANEL_URL = os.getenv("ADMIN_PANEL_URL", "https://lol-production-be49.up.railway.app/adminpanel")
 
 # ==========================================================
 # 🇰🇭 KHQR & BAKONG PAYMENT SETTINGS
